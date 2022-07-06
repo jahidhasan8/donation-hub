@@ -238,6 +238,52 @@ input {
     background: rgba(235, 9, 9, 0.1);
 }
 
+.details {
+    font-size: 15px;
+}
+
+
+
+.update-details {
+    text-align: center;
+    font-size: 15px;
+    margin-top: 120px;
+    margin-left: 400px;
+    padding: 5px;
+
+}
+
+.update {
+    display: inline-block;
+}
+
+.email-border {
+    position: absolute;
+    width: 700px;
+    height: 100px;
+    left: 316px;
+    background: #ddd7c6;
+    text-align: center;
+    margin-left: 30px;
+}
+
+.input-email {
+    display: block;
+    position: absolute;
+    width: 300px;
+    height: 35px;
+    left: 100px;
+    margin-top: 30px;
+
+}
+
+#email-button {
+    display: block;
+    margin-left: 750px;
+    margin-top: 25px;
+
+}
+
 /*.donate-button {
     text-decoration: none;
     background-image: linear-gradient(purple, orangered);
