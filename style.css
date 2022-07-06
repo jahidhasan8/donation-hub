@@ -170,6 +170,74 @@ input {
     text-align: center;
 }
 
+.donate {
+    display: flex;
+    margin-top: 30px;
+}
+
+.describe-plan {
+    position: absolute;
+    width: 500px;
+    height: 100px;
+    left: 375px;
+    margin-top: 150px;
+
+
+}
+
+.plan-tittle {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+/* final .plan-tittle {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 900;
+    margin-bottom: 10px;
+    position: relative;
+
+
+}*/
+
+/*.plan-tittle {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 900;
+    margin-bottom: 20px;
+    color: black;
+    position: relative;
+    margin-left: 300px;
+    margin-top: 0%;
+}*/
+
+/* final .plan-overview {
+    text-align: center;
+    margin-left: 300px;
+}*/
+
+.distribute-plan {
+    width: 300px;
+    height: 200px;
+    margin-top: 400px;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0px 2px 15px gray;
+    padding: 20px;
+    margin-left: 70px;
+
+
+}
+
+#plan1 {
+    background: rgba(119, 3, 3, 0.1);
+}
+
+#plan2 {
+    background: rgba(235, 9, 9, 0.1);
+}
+
 /*.donate-button {
     text-decoration: none;
     background-image: linear-gradient(purple, orangered);
