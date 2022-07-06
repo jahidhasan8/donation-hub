@@ -7,6 +7,7 @@ section {
     display: flex;
 }
 
+/*Top poster and Heading Section */
 .top-poster {
     background-image: url(image/donation13.jpg);
     background-repeat: no-repeat;
@@ -58,12 +59,13 @@ section {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 480px;
+    margin-top: 500px;
     margin-left: 600px;
 
 
 }
 
+/* Give Donation */
 
 .donate-heading {
     position: absolute;
@@ -112,9 +114,12 @@ section {
 
 }
 
-#selected {
+#select {
     border: 3px solid coral;
+    background-color: rgb(231, 192, 185);
 }
+
+
 
 input {
     width: 300px;
@@ -131,6 +136,7 @@ input {
     text-align: center;
 }
 
+/* Donation Plan Section */
 .donate {
     display: flex;
     margin-top: 30px;
@@ -146,13 +152,21 @@ input {
 
 }
 
+.describe-plan p {
+    font-size: 18px;
+
+}
+
 .plan-tittle {
     text-align: center;
     font-size: 40px;
     font-weight: 700;
 }
 
-
+.distribute-main {
+    margin-top: 40px;
+    display: flex;
+}
 
 .distribute-plan {
     width: 300px;
@@ -167,6 +181,7 @@ input {
 
 }
 
+
 #plan1 {
     background: rgba(119, 3, 3, 0.1);
 }
@@ -177,51 +192,83 @@ input {
 
 .details {
     font-size: 15px;
-}
-
-
-
-.update-details {
-    text-align: center;
-    font-size: 15px;
-    margin-top: 120px;
-    margin-left: 400px;
-    padding: 5px;
 
 }
 
-.update {
-    display: inline-block;
-}
 
-.email-border {
-    position: absolute;
-    width: 700px;
-    height: 100px;
-    left: 316px;
-    background: #ddd7c6;
-    text-align: center;
-    margin-left: 30px;
-}
+/* Registration Section */
 
-.input-email {
+.reg-container {
     display: block;
-    position: absolute;
-    width: 300px;
-    height: 35px;
-    left: 100px;
-    margin-top: 30px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    margin-top: 100px;
+    background: linear-gradient(360deg, #121212 0%, rgba(18, 18, 18, 0) 100%);
 
 }
 
-#email-button {
-    display: block;
-    margin-left: 750px;
-    margin-top: 25px;
+.registration-main {
+    color: black;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.submit_btn {
+    width: 100px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.reg-header {
+    text-align: center;
+    font-weight: 900;
+    font-size: 44px;
+    padding: 20px;
+    margin-top: 200px;
+    color: #121212;
 
 }
 
 
+
+/* Update section */
+.subscribe_parent {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(220, 187, 182);
+    height: 200px;
+    width: 60%;
+    margin-left: 20%;
+}
+
+.email,
+.subscribe_btn {
+    margin-top: 90px;
+
+}
+
+.subscribe_btn {
+    padding: 9px;
+}
+
+.update_paragraph {
+    font-size: 18px;
+    width: 60%;
+    margin-left: 20%;
+}
+
+
+.updates_head {
+    font-size: 25px;
+    width: 60%;
+    margin-left: 20%;
+    text-align: center;
+    font-size: 40px;
+}
+
+
+/* Footer section */
 footer {
     background-color: black;
     height: 130px;
