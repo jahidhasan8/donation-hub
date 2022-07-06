@@ -14,15 +14,6 @@ section {
     background-size: cover;
 }
 
-/*.top-poster-div {
-    color: white;
-    position: absolute;
-    width: 826px;
-    height: 158px;
-    left: 307px;
-    top: 174px;
-
-}*/
 
 .top-heading {
     color: white;
@@ -73,37 +64,7 @@ section {
 
 }
 
-/* main value.button-link {
-    text-decoration: none;
-    background-image: linear-gradient(purple, orangered);
-    border-radius: 5px;
-    text-align: center;
-    padding: 16px 12px;
 
-    position: absolute;
-    width: 110px;
-    height: 20px;
-    left: 520px;
-    top: 480px;
-    color: white;
-
-}*/
-
-/*.button-link {
-    text-decoration: none;
-    background-image: linear-gradient(purple, orangered);
-    border-radius: 5px;
-    color: white;
-    padding: 10px 10px;
-    position: absolute;
-    width: 100px;
-    height: 30px;
-    left: 520px;
-    top: 480px;
-    text-align: center;
-    font-weight: 600;
-
-}*/
 .donate-heading {
     position: absolute;
     width: 304px;
@@ -191,31 +152,7 @@ input {
     font-weight: 700;
 }
 
-/* final .plan-tittle {
-    text-align: center;
-    font-size: 40px;
-    font-weight: 900;
-    margin-bottom: 10px;
-    position: relative;
 
-
-}*/
-
-/*.plan-tittle {
-    text-align: center;
-    font-size: 40px;
-    font-weight: 900;
-    margin-bottom: 20px;
-    color: black;
-    position: relative;
-    margin-left: 300px;
-    margin-top: 0%;
-}*/
-
-/* final .plan-overview {
-    text-align: center;
-    margin-left: 300px;
-}*/
 
 .distribute-plan {
     width: 300px;
@@ -284,31 +221,24 @@ input {
 
 }
 
-/*.donate-button {
-    text-decoration: none;
-    background-image: linear-gradient(purple, orangered);
-    border-radius: 5px;
+
+footer {
+    background-color: black;
+    height: 130px;
     text-align: center;
-    padding: 16px 12px;
-    color: white;
-    position: relative;
-}*/
+    margin-top: 90px;
+}
 
-/*.amount {
-    position: absolute;
-    width: 135px;
-    height: 123px;
-    left: 338px;
-    top: 979px;
-    border-radius: 5px;
-    display: flex;
 
-    display: flex;
-    padding-left: 8%;
-    margin-left: 5%;
-    margin-right: 5%;
-    margin-top: 7%;
-    height: 200px;
-    border-radius: 15px;
-    box-shadow: 2px 2px 3px 3px #9a9797;
-}*/
+small {
+    font-size: 15px;
+    color: rgb(126, 85, 10);
+}
+
+.footer-donate {
+    color: crimson;
+}
+
+.footer-for {
+    color: crimson;
+}
