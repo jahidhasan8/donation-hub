@@ -18,13 +18,13 @@ section {
 
 
 .top-heading {
-    color: rgb(250, 234, 214);
+    color: whitesmoke;
     position: absolute;
     width: 826px;
     height: 158px;
     left: 200px;
     top: 174px;
-    font-weight: 700;
+    font-weight: 900;
     font-size: 60px;
     line-height: 79px;
     text-align: center;
@@ -32,13 +32,13 @@ section {
 }
 
 .top-poster-paragraph {
-    color: white;
+    color: whitesmoke;
     position: absolute;
     width: 691px;
     height: 56px;
     left: 250px;
     top: 352px;
-    font-weight: 400;
+    font-weight: 500;
     font-size: 18px;
     line-height: 28px;
     margin-top: 50px;
